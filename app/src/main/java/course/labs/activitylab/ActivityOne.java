@@ -74,15 +74,69 @@ public class ActivityOne extends Activity {
 			//Log cat print out
 			Log.i(TAG, "onResume called");
 
-			startCount++;
-			startCounter.setText(Integer.toString(startCount));
+			resumeCount++;
+			resumeCounter.setText(Integer.toString(resumeCount));
 		}
+
+		@Override
+		public void onPause(){
+			super.onPause();
+
+			//Log cat print out
+			Log.i(TAG, "onPause called");
+
+			pauseCount++;
+			pauseCounter.setText(Integer.toString(pauseCount));
+		}
+
+		@Override
+		public void onStop(){
+			super.onStop();
+
+			//Log cat print out
+			Log.i(TAG, "onStop called");
+
+			stopCount++;
+			stopCounter.setText(Integer.toString(stopCount));
+		}
+
+		@Override
+		public void onDestroy(){
+			super.onDestroy();
+
+			//Log cat print out
+			Log.i(TAG, "onDestroy called");
+
+			destroyCount++;
+			destroyCounter.setText(Integer.toString(destroyCount));
+		}
+
+		@Override
+		public void onRestart(){
+			super.onRestart();
+
+			//Log cat print out
+			Log.i(TAG, "onRestart called");
+
+			restartCount++;
+			restartCounter.setText(Integer.toString(restartCount));
+		}
+
+
 
 
 
 		@Override
 		public void onSaveInstanceState(Bundle savedInstanceState){
 			//TODO:  save state information with a collection of key-value pairs & save all  count variables
+			super.onSaveInstanceState(savedInstanceState);
+			savedInstanceState.putInt("createCount", createCount);
+			savedInstanceState.putInt("startCount", startCount);
+			savedInstanceState.putInt("resumeCount", resumeCount);
+			savedInstanceState.putInt("pauseCount", pauseCount);
+			savedInstanceState.putInt("stopCount", stopCount);
+			savedInstanceState.putInt("destroyCount", destroyCount);
+			savedInstanceState.putInt("restartCount", restartCount);
 		}
 
 
