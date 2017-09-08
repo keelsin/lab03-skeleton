@@ -11,14 +11,7 @@
                     "endOffset": 100
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 49,
-                        "endOffset": 104
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 550,
-                        "endColumn": 53,
-                        "endOffset": 599
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -49,14 +35,7 @@
                     "endOffset": 203
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 765,
-                        "endColumn": 48,
-                        "endOffset": 809
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -70,11 +49,11 @@
                 "from": {
                     "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 896,
+                        "startOffset": 894,
                         "endColumn": 43,
-                        "endOffset": 935
+                        "endOffset": 933
                     }
                 }
             },
@@ -83,17 +62,17 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 252,
-                    "endColumn": 43,
-                    "endOffset": 291
+                    "endColumn": 44,
+                    "endOffset": 292
                 },
                 "from": {
                     "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 941,
-                        "endColumn": 43,
-                        "endOffset": 980
+                        "startOffset": 1115,
+                        "endColumn": 44,
+                        "endOffset": 1155
                     }
                 }
             },
@@ -101,208 +80,138 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 296,
-                    "endColumn": 50,
-                    "endOffset": 342
+                    "startOffset": 297,
+                    "endColumn": 43,
+                    "endOffset": 336
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 110,
-                        "endColumn": 50,
-                        "endOffset": 156
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 347,
-                    "endColumn": 54,
-                    "endOffset": 397
+                    "startOffset": 341,
+                    "endColumn": 43,
+                    "endOffset": 380
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 162,
-                        "endColumn": 54,
-                        "endOffset": 212
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 402,
-                    "endColumn": 56,
-                    "endOffset": 454
+                    "startOffset": 385,
+                    "endColumn": 50,
+                    "endOffset": 431
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 434,
-                        "endColumn": 56,
-                        "endOffset": 486
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 459,
-                    "endColumn": 52,
-                    "endOffset": 507
+                    "startOffset": 436,
+                    "endColumn": 54,
+                    "endOffset": 486
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 328,
-                        "endColumn": 52,
-                        "endOffset": 376
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 512,
+                    "startOffset": 491,
                     "endColumn": 56,
-                    "endOffset": 564
+                    "endOffset": 543
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 492,
-                        "endColumn": 56,
-                        "endOffset": 544
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 569,
-                    "endColumn": 54,
-                    "endOffset": 619
+                    "startOffset": 548,
+                    "endColumn": 52,
+                    "endOffset": 596
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 272,
-                        "endColumn": 54,
-                        "endOffset": 322
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 624,
-                    "endColumn": 52,
-                    "endOffset": 672
+                    "startOffset": 601,
+                    "endColumn": 56,
+                    "endOffset": 653
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 218,
-                        "endColumn": 52,
-                        "endOffset": 266
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 677,
-                    "endColumn": 50,
-                    "endOffset": 723
+                    "startOffset": 658,
+                    "endColumn": 54,
+                    "endOffset": 708
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 382,
-                        "endColumn": 50,
-                        "endOffset": 428
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 728,
-                    "endColumn": 77,
-                    "endOffset": 801
+                    "startOffset": 713,
+                    "endColumn": 52,
+                    "endOffset": 761
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 815,
-                        "endColumn": 77,
-                        "endOffset": 888
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 806,
-                    "endColumn": 68,
-                    "endOffset": 870
+                    "startOffset": 766,
+                    "endColumn": 50,
+                    "endOffset": 812
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 605,
-                        "endColumn": 68,
-                        "endOffset": 669
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 875,
-                    "endColumn": 88,
-                    "endOffset": 959
+                    "startOffset": 817,
+                    "endColumn": 42,
+                    "endOffset": 855
                 },
                 "from": {
                     "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 675,
-                        "endColumn": 88,
-                        "endOffset": 759
+                        "startOffset": 1028,
+                        "endColumn": 42,
+                        "endOffset": 1066
                     }
                 }
             },
@@ -310,42 +219,138 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 964,
-                    "endLine": 24,
-                    "endColumn": 12,
-                    "endOffset": 1250
+                    "startOffset": 860,
+                    "endColumn": 44,
+                    "endOffset": 900
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 192,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 484
+                        "startOffset": 1161,
+                        "endColumn": 44,
+                        "endOffset": 1201
                     }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 905,
+                    "endColumn": 43,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 983,
+                        "endColumn": 43,
+                        "endOffset": 1022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endColumn": 77,
+                    "endOffset": 1022
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1027,
+                    "endColumn": 42,
+                    "endOffset": 1065
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 939,
+                        "endColumn": 42,
+                        "endOffset": 977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1070,
+                    "endColumn": 41,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1072,
+                        "endColumn": 41,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 68,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 88,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1255,
+                    "startOffset": 1270,
                     "endLine": 27,
                     "endColumn": 12,
-                    "endOffset": 1410
+                    "endOffset": 1348
                 },
                 "from": {
-                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 525,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 682
-                    }
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1353,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 1420
+                },
+                "from": {
+                    "file": "C:\\Users\\1010290\\Desktop\\lab03-skeleton\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]

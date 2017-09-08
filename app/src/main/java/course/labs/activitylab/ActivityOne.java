@@ -78,7 +78,7 @@ public class ActivityOne extends Activity {
 			startCounter.setText(Integer.toString(startCount));
 		}
 
-	    // TODO: implement 5 missing lifecycle callback methods
+
 
 		@Override
 		public void onSaveInstanceState(Bundle savedInstanceState){
