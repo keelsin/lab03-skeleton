@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1504902458343"
+    timestamp="1504902696680"
     token="-3481288860898528196"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -95,7 +95,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1504902458343"
+        timestamp="1504902696680"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\1010290\Desktop\lab03-skeleton\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
