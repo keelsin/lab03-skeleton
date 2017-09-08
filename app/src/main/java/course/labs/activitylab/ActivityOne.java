@@ -31,6 +31,17 @@ public class ActivityOne extends Activity {
 			Log.i(TAG, "onCreate called");
 			//TODO: update the appropriate count variable & update the view
 
+			if (savedInstanceState != null) {
+				createCount = savedInstanceState.getInt("createCount");
+				Log.i(TAG, "onRestoreInstance called ");
+				startCount = savedInstanceState.getInt("startCount");
+				resumeCount = savedInstanceState.getInt("resumeCount");
+				pauseCount = savedInstanceState.getInt("pauseCount");
+				stopCount = savedInstanceState.getInt("stopCount");
+				destroyCount = savedInstanceState.getInt("destroyCount");
+				restartCount = savedInstanceState.getInt("restartCount");
+			}
+
 			createCounter = (TextView) findViewById(R.id.createCounter);
 			startCounter = (TextView) findViewById(R.id.startCounter);
 			resumeCounter = (TextView) findViewById(R.id.resumeCounter);
@@ -39,9 +50,11 @@ public class ActivityOne extends Activity {
 			destroyCounter = (TextView) findViewById(R.id.destroyCounter);
 			restartCounter = (TextView) findViewById(R.id.restartCounter);
 
+
+
+
 			createCount++;
 			createCounter.setText(Integer.toString(createCount));
-
 		}
 
 		@Override
@@ -130,6 +143,7 @@ public class ActivityOne extends Activity {
 		public void onSaveInstanceState(Bundle savedInstanceState){
 			//TODO:  save state information with a collection of key-value pairs & save all  count variables
 			super.onSaveInstanceState(savedInstanceState);
+			Log.i(TAG, "onSaveInstance called");
 			savedInstanceState.putInt("createCount", createCount);
 			savedInstanceState.putInt("startCount", startCount);
 			savedInstanceState.putInt("resumeCount", resumeCount);
@@ -138,6 +152,20 @@ public class ActivityOne extends Activity {
 			savedInstanceState.putInt("destroyCount", destroyCount);
 			savedInstanceState.putInt("restartCount", restartCount);
 		}
+
+		/*public void onRestoreInstanceState(Bundle savedInstanceState){
+			//Always call the superclass so it can restore the view hierarchy
+			super.onRestoreInstanceState(savedInstanceState);
+
+			createCount = savedInstanceState.getInt("createCount");
+			Log.i(TAG, "onRestoreInstance called ");
+			startCount = savedInstanceState.getInt("startCount");
+			resumeCount = savedInstanceState.getInt("resumeCount");
+			pauseCount = savedInstanceState.getInt("pauseCount");
+			stopCount = savedInstanceState.getInt("stopCount");
+			destroyCount = savedInstanceState.getInt("destroyCount");
+			restartCount = savedInstanceState.getInt("restartCount");
+		}*/
 
 
 		public void launchActivityTwo(View view) {
