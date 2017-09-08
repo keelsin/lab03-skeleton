@@ -5,40 +5,124 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <TextView android:id="@+id/create"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onCreate" />
-    
-    <TextView android:id="@+id/start"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onCreate" />
+
+        <TextView
+            android:id="@+id/createCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onStart" />
-    
-    <TextView android:id="@+id/resume"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onStart" />
+
+        <TextView
+            android:id="@+id/startCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onResume" />
-    
-    <TextView android:id="@+id/pause"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onResume" />
+
+        <TextView
+            android:id="@+id/resumeCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resumeCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onPause" />
-    
-    <TextView android:id="@+id/stop"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onPause" />
+
+        <TextView
+            android:id="@+id/pauseCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pauseCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onStop" />
-    
-    <TextView android:id="@+id/restart"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onStop" />
+
+        <TextView
+            android:id="@+id/stopCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stopCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onRestart" />
-    
-    <TextView android:id="@+id/destroy"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onRestart" />
+
+        <TextView
+            android:id="@+id/restartCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restartCounter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/onDestroy" />
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/destroy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onDestroy" />
+
+        <TextView
+            android:id="@+id/destroyCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destroyCounter"/>
+
+    </LinearLayout>
     
     <Button
         android:layout_width="wrap_content"

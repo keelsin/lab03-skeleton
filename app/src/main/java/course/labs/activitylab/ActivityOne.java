@@ -15,6 +15,11 @@ public class ActivityOne extends Activity {
 
 		// lifecycle counts
 		//TODO: Create 7 counter variables, each corresponding to a different one of the lifecycle callback methods.
+			int createCount=0, startCount=0, resumeCount=0, pauseCount=0,
+				stopCount=0, restartCount=0, destroyCount = 0;
+
+			TextView createCounter, startCounter, resumeCounter, pauseCounter,
+					stopCounter, destroyCounter, restartCounter;
 		//TODO:  increment the variables' values when their corresponding lifecycle methods get called.
 		
 		@Override
@@ -24,8 +29,19 @@ public class ActivityOne extends Activity {
 			
 			//Log cat print out
 			Log.i(TAG, "onCreate called");
-			
 			//TODO: update the appropriate count variable & update the view
+
+			createCounter = (TextView) findViewById(R.id.createCounter);
+			startCounter = (TextView) findViewById(R.id.startCounter);
+			resumeCounter = (TextView) findViewById(R.id.resumeCounter);
+			pauseCounter = (TextView) findViewById(R.id.pauseCounter);
+			stopCounter = (TextView) findViewById(R.id.stopCounter);
+			destroyCounter = (TextView) findViewById(R.id.destroyCounter);
+			restartCounter = (TextView) findViewById(R.id.restartCounter);
+
+			createCount++;
+			createCounter.setText(Integer.toString(createCount));
+
 		}
 
 		@Override
@@ -45,6 +61,21 @@ public class ActivityOne extends Activity {
 			Log.i(TAG, "onStart called");
 			
 			//TODO:  update the appropriate count variable & update the view
+			startCount++;
+			startCounter.setText(Integer.toString(startCount));
+		}
+
+	// TODO: implement 5 missing lifecycle callback methods
+
+		@Override
+		public void onResume(){
+			super.onResume();
+
+			//Log cat print out
+			Log.i(TAG, "onResume called");
+
+			startCount++;
+			startCounter.setText(Integer.toString(startCount));
 		}
 
 	    // TODO: implement 5 missing lifecycle callback methods
